@@ -45,5 +45,5 @@ func main() {
 	cmd.Process.Release()
 
 	fmt.Printf("cmd is %+v", cmd)
-	time.Sleep(time.Second * 600)
+	time.Sleep(time.Second * 60)
 }
